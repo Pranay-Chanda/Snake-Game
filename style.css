@@ -1,0 +1,49 @@
+body {
+  background-color: #49494c;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.grid {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 30px solid #2f221f;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+}
+
+.start {
+  background-color: rgb(46, 160, 46);
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border: none;
+}
+
+.start:hover {
+  cursor: pointer;
+  background-color: lawngreen;
+}
+
+.snake {
+  background-color: blue;
+  /* border-radius: 5px; */
+}
+
+.apple {
+  background-color: red;
+  border-radius: 50px;
+}
